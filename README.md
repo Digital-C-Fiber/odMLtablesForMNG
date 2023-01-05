@@ -18,7 +18,7 @@ There are two [templates](https://github.com/Digital-C-Fiber/odMLtablesForMNG). 
 5. Add search functionality. For that you need to replace python files from [Code](https://github.com/Digital-C-Fiber/odMLtablesForMNG) in the same structure.
 	- Navigate to folder where pipx is installed and odmltables is located. Enter in command line
 	> pipx list
-	- It should show: <em>venvs are in YOURPATH\.local\pipx\venvs</em>
+	- It should show: `venvs are in YOURPATH\.local\pipx\venvs´
 	Navigate to the folder location in the windows explorer# <em>YOURPATH\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables</em>
 6. 
 	1. Copy [odml_table.py](https://github.com/Digital-C-Fiber/odMLtablesForMNG/Code/odml_table.py) to folder YOURPATH\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables 
