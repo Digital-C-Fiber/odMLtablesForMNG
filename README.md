@@ -19,25 +19,25 @@ There are two [templates](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tr
 	```console
 	python -m pip install pipx
 	```
-4. Install odmltables:
+6. Install odmltables:
 	```console
 	pipx install odmltables
 	```
-5. Now the standard version of odML-tables was installed. To add the new search functionality, certain files need to be downloaded and used as replacement for the old files. 
-        1. Download and save the python files in the same hierarchical structure. For example, click on green button **<> Code** and select "Download ZIP".
+7. Now the standard version of odML-tables was installed. To add the new search functionality, certain files need to be downloaded and used as replacement for the old files. 
+	1. Download and save the python files in the same hierarchical structure. For example, click on green button **<> Code** and select "Download ZIP".<br>
 	2. Navigate to folder where pipx is installed and odmltables is located, for that write in command line or terminal
 	```console
 	pipx list
 	```
-	- It should show: <code>venvs are in YOURPATH\\.local\pipx\venvs</code> <br>
-	Navigate to the folder location in your file system <br>
+	3. It should show: <code>venvs are in YOURPATH\\.local\pipx\venvs</code> <br>
+	Navigate to the folder location in your file system by replacing YOURPATH with your actual path<br>
 	<code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables</code>
-6. Copy and replace files from [Code folder](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code)
+8. Copy and replace files from [Code folder](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code)
 	1. Copy [odml_table.py](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code/odml_table.py) to folder <code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables</code>
 	2. Copy [mainwindow.py](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code/gui/mainwindow.py) to folder <code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables\gui</code> (in gui folder).
 	3. Copy [searchpages.py](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code/gui/searchpages.py) to folder <code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables\gui</code> (in gui folder).
 	4. Copy [searchwiz.py](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code/gui/searchwiz.py) to folder <code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables\gui</code> (in gui folder).
-	5. Copy [searchodml3.svg](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code/gui/graphics/searchodml3.svg) to folder <code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables\gui</code> (in gui/graphics folder).
+	5. Copy [searchodml3.svg](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tree/master/code/gui/graphics/searchodml3.svg) to folder <code>YOURPATH\\.local\pipx\venvs\odmltables\Lib\site-packages\odmltables\gui\graphics</code> (in gui/graphics folder).
 	
 	
 ## Problems or questions
