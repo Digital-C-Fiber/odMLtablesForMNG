@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+# Based on python-odmltables
+# Copyright (c) 2015–2023 Forschungszentrum Jülich GmbH
+# Modifications © 2023 Alina Troglio / Namer's Lab
+# Licensed under the BSD 3-Clause License
 
 import copy
 import os
