@@ -44,4 +44,5 @@ There are two [templates](https://github.com/Digital-C-Fiber/odMLtablesForMNG/tr
 If you observe any problems or questions in this extension of odML-tables please add a issue at the [GitHub issue tracker](https://github.com/Digital-C-Fiber/odMLtablesForMNG/issues).
 
 
-## Preprint
+## Publication to cite
+Please cite the following [publication](https://pubmed.ncbi.nlm.nih.gov/37697832/): Troglio A, Nickerson A, Schlebusch F, Röhrig R, Dunham J, Namer B, Kutafina E. odML-Tables as a Metadata Standard in Microneurography. Stud Health Technol Inform. 2023 Sep 12;307:3-11. doi: 10.3233/SHTI230687. PMID: 37697832.
